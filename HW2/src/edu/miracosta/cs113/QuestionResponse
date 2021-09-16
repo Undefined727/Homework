@@ -1,0 +1,6 @@
+An answer is rarely achieved in under 20 guesses regardless of the theory while using RandomClue.
+This strategy is bad, as randomly guessing doesn't use the clues or rely on previous wrong solutions.
+
+The driver I created, RandomCluev2, always guesses with a maximum limit of 20.
+The strategy it uses cycles through one of the three variables whenever said variable is shown to be false.
+Cycling through every variable in the method I used has a maximum of 20, as besides the initial state (1), there are 9 possible locations to cycle through, 5 possible weapons, and 5 people.
